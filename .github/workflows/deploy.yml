@@ -1,7 +1,7 @@
 name: Deploy website
 
 # The website is built by the private profile-src repo and published to the public
-# gh-pages branch of Janar210/Janar210. This workflow copies that build to GitHub Pages
+# "website" branch of Janar210/Janar210. This workflow copies that build to GitHub Pages
 # here, so it is served at https://janar210.github.io (and janarthanan.is-a.dev).
 # It needs no tokens: the source branch is public.
 on:
@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ github.repository_owner }}/${{ github.repository_owner }}
-          ref: gh-pages
+          ref: website
           path: site
 
       - name: Drop git data and any custom-domain file (the domain is set in Settings → Pages)
