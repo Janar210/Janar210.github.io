@@ -1,4 +1,4 @@
-# janar210.github.io
+# janar-n.github.io
 
 Portfolio website of Janarthanan Narayanasamy, served at https://janarthanan.is-a.dev.
 
